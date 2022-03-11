@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Найди квартиру</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="login_registration.html">1 задание</a>
+            <a href="flat.html">2 задание</a>
+        </nav>
+    </header>
+    <form action="#" method="post" name="choose flat">
+        <label>Пожалуйста, введите район, метро или улицу:</label>
+        <div>
+        <input type="text" autofocus placeholder="Местоположение" name="destination">
+        </div>  
+        <fieldset>
+            <legend>Укажите количество комнат</legend>
+            <label>
+                1 комната
+                <input type="checkbox" name="room[]" value="1">
+            </label>
+            <label>
+                2 комнаты
+                <input type="checkbox" name="room[]" value="2">
+            </label>
+            <label>
+                3 комнаты
+                <input type="checkbox" name="room[]" value="3">
+            </label>
+            <label>
+                4 комнаты
+                <input type="checkbox" name="room[]" value="4">
+            </label>
+            <label>
+                5 комнат
+                <input type="checkbox" name="room[]" value="5">
+            </label>
+        </fieldset>
+        <label>Пожалуйста, выберите количество год сдачи дома: </label>
+        <div>
+            <input type="number" placeholder="Год" min="1980" max="2022" name="age"> 
+        </div>
+        <label>Пожалуйста, укажите стоимость и площадь:</label>
+        <div> 
+            <input type="number" placeholder="Стоимость" min="1500000" name="price">
+            <input type="number" placeholder="Площадь" min="50" name="space">
+        </div>
+        <div>
+        <label for condition>Выберите состояние квартиры:</label>
+        <select id="condition" name="condition">
+            <optgroup>
+                <option value="1">С отделкой</option>
+                <option value="2">Без отделки</option>
+            </optgroup>
+        </select>
+        </div>
+        <div>
+        <label for terrace>Выберите терассу:</label>
+        <select id="terrace" name="terrace">
+            <optgroup>
+                <option value="1">С террасой</option>
+                <option value="2">Без терассы</option>
+            </optgroup>
+        </select>
+        </div>
+        <div>
+            <label for class="">Выберите класс квартиры:</label>
+            <select id="class" name="class" multiple>
+                <optgroup>
+                    <option value="1">Бизнес класс</option>
+                    <option value="2">Премиум класс</option>
+                    <option value="3">Deluxe класс</option>
+                </optgroup>
+            </select>
+            </div>
+            <fieldset>
+                <legend>Выберите этаж</legend>
+                <label>
+                    От
+                    <input type="number" min="1" name="minfloor">
+                </label>
+                <label>
+                    До
+                    <input type="number" min="1" name="maxfloor">
+                </label>
+                <label>
+                    Не первый этаж
+                    <input type="checkbox" name="firstfloor" value="1">
+                </label>
+                <label>
+                    Не последний этаж
+                    <input type="checkbox" name="lastfloor" value="1">
+                </label>
+            </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация по номеру телефона</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="login_registration.html">1 задание</a>
+            <a href="flat.html">2 задание</a>
+        </nav>
+    </header>
+    <form action="#" method="post" name="registration">
+        <label>Введите обязательную информацию:</label>
+        <div>
+            <input type="email" placeholder="Почта" autofocus 
+            required minlength="5" name="email">
+            <input type="password" placeholder="Пароль" required
+            minlength="6" name="password">
+            <input type="number" min="0" max="99" name="age" 
+            placeholder="Возраст" required>
+        </div>
+            <label>По желанию введите дополнительную информацию:</label>
+            <div>
+                <input type="text" placeholder="Имя" name="name">
+                <input type="tel" placeholder="Телефон" name="phone">
+            </div>
+    </form>
+</body>
+</html>
