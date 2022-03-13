@@ -49,31 +49,25 @@
             <input type="number" placeholder="Площадь" min="50" name="space">
         </div>
         <div>
-        <label for condition>Выберите состояние квартиры:</label>
+        <label for= "condition">Выберите состояние квартиры:</label>
         <select id="condition" name="condition">
-            <optgroup>
                 <option value="1">С отделкой</option>
                 <option value="2">Без отделки</option>
-            </optgroup>
         </select>
         </div>
         <div>
-        <label for terrace>Выберите терассу:</label>
+        <label for= "terrace">Выберите терассу:</label>
         <select id="terrace" name="terrace">
-            <optgroup>
                 <option value="1">С террасой</option>
                 <option value="2">Без терассы</option>
-            </optgroup>
         </select>
         </div>
         <div>
-            <label for class="">Выберите класс квартиры:</label>
+            <label for="class">Выберите класс квартиры:</label>
             <select id="class" name="class" multiple>
-                <optgroup>
                     <option value="1">Бизнес класс</option>
                     <option value="2">Премиум класс</option>
                     <option value="3">Deluxe класс</option>
-                </optgroup>
             </select>
             </div>
             <fieldset>
@@ -96,5 +90,9 @@
                 </label>
             </fieldset>
     </form>
+    <div>
+        <button type="submit">Отправить заявку</button>
+        <button type="reset">Очистить заявку</button>
+    </div>
 </body>
 </html>
