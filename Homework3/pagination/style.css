@@ -1,0 +1,19 @@
+div{
+    display: block;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 3px solid orange;
+    padding: 10px 15px;
+}
+
+a:active{
+    background-color: red;
+}
+
+body{
+    margin-top: 30px;
+}

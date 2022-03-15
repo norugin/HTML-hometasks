@@ -1,0 +1,5 @@
+body{
+    background-image: url(https://picsum.photos/id/3/200/300);
+    background-attachment: fixed;
+    background-position: center;
+}

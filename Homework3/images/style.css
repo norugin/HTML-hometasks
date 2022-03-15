@@ -1,0 +1,33 @@
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: violet;
+}
+
+img{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    opacity: 0.2;
+    display: inline-block;
+}
+
+.container1{
+    opacity: 0.6;
+    display: inline-block;
+}
+
+.container2{
+    display: inline-block;
+}

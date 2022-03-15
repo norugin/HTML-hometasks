@@ -1,0 +1,25 @@
+div > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.red-bold-uppercase{
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+}
+
+.line-through{
+    text-decoration: line-through red;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+.red-bold{
+    color: red;
+    font-weight: bold;
+}

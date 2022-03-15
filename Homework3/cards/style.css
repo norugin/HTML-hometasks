@@ -1,0 +1,24 @@
+body{
+    display: block;
+    text-align: center;
+    background-color: aqua;
+}
+
+.img{
+    width: 200;
+    height: 250;
+}
+
+.icon{
+    width: 10;
+    height: 10;
+    border-radius: 50%;
+    float: left;
+    object-fit: cover;
+}
+
+div{
+    display: inline-block;
+    padding-left: inherit;
+    background-color: blue;
+}
