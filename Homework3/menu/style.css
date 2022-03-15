@@ -12,6 +12,7 @@ a{
 }
 li{
     display: inline-block;
+    padding: 20px;
 }
 a:active{
     border-bottom: 3px solid red;

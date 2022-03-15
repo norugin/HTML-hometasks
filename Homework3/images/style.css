@@ -21,13 +21,19 @@ a{
 .container {
     opacity: 0.2;
     display: inline-block;
+    width: 33%;
+    height: auto;
 }
 
 .container1{
     opacity: 0.6;
     display: inline-block;
+    width: 33%;
+    height: auto;
 }
 
 .container2{
     display: inline-block;
+    width: 33%;
+    height: auto;
 }
