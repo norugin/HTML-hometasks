@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+a{
+    padding: 15px 70px 15px 70px;
+    text-decoration: none;
+    color:inherit;
+    color: blueviolet;
+}
+.choose{
+    background-color: violet;
+}
+nav{
+    display: flex; 
+    flex-direction:column !important; 
+    margin-top: 5px; 
+    margin-left: 5px; 
+    margin-bottom: 5px;
+    align-items: center !important;
+}
